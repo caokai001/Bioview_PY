@@ -1,0 +1,142 @@
+  {
+    "base_color": 
+    {
+      "A": {"fg": 196, "bg": -1},
+      "T": {"fg": 50 , "bg": -1},
+      "C": {"fg": 226, "bg": -1},
+      "G": {"fg": 82 , "bg": -1},
+      "U": {"fg": -1,  "bg": -1},
+      "N": {"fg": -1,  "bg": -1}
+    },
+
+    "fq_config":
+    {
+      "phred": 33,
+
+      "use_color": true,
+      "use_base_color": true,
+
+      "hist": {
+        "use": true,
+        "symbols": 
+        "▁▁▁▁▁▁▁▁▂▂▂▂▂▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇██████",
+        "symbol_unit_len": 3,
+        "align": 1,
+        "color": {"fg": -1, "bg": -1}
+      },
+
+      "identifier": {
+        "color": {"fg": -1, "bg": -1},
+        "parse_parts": false,
+        "parts_colors": {
+          "instrument":   {"fg": -1, "bg": -1},
+          "run_id":       {"fg": -1, "bg": -1},
+          "flowcell_id":  {"fg": -1, "bg": -1},
+          "tile_number":  {"fg": -1, "bg": -1},
+          "x_coordinate": {"fg": -1, "bg": -1},
+          "y_coordinate": {"fg": -1, "bg": -1},
+          "pair":         {"fg": -1, "bg": -1},
+          "filtered":     {"fg": -1, "bg": -1},
+          "control_bits": {"fg": -1, "bg": -1},
+          "index_seq":    {"fg": -1, "bg": -1}
+        }
+      },
+
+      "delimiter": {
+        "use": true,
+        "str": "-",
+        "len": 150,
+        "color": {"fg": -1, "bg": -1}
+      }
+
+    },
+
+    "fa_config":
+    {
+      "use_color": true,
+      "use_base_color": true,
+
+      "record_type": "dna",
+
+      "amino_color": {
+        "A": {"fg": 1, "bg": -1},
+        "R": {"fg": 2, "bg": -1},
+        "N": {"fg": 3, "bg": -1},
+        "D": {"fg": 4, "bg": -1},
+        "C": {"fg": 5, "bg": -1},
+        "E": {"fg": 6, "bg": -1},
+        "Q": {"fg": 7, "bg": -1},
+        "G": {"fg": 8, "bg": -1},
+        "H": {"fg": 9, "bg": -1},
+        "I": {"fg": 10, "bg": -1},
+        "L": {"fg": 11, "bg": -1},
+        "K": {"fg": 12, "bg": -1},
+        "M": {"fg": 13, "bg": -1},
+        "F": {"fg": 14, "bg": -1},
+        "P": {"fg": 15, "bg": -1},
+        "S": {"fg": 16, "bg": -1},
+        "T": {"fg": 17, "bg": -1},
+        "W": {"fg": 18, "bg": -1},
+        "Y": {"fg": 19, "bg": -1},
+        "V": {"fg": 20, "bg": -1}
+      },
+
+      "identifier_color": {"fg": -1, "bg": -1}
+    },
+
+    "sam_config":
+    {
+      "phred": 33,
+
+      "use_color": true,
+
+      "multiline": false,
+
+      "delimiter": {
+        "use": false,
+        "str": "-",
+        "len": 150,
+        "color": {"fg": -1, "bg": -1}
+      },
+
+      "header_color": {
+        "header_type": {"fg": 111,  "bg": -1},
+        "item_key":    {"fg": 201, "bg": -1},
+        "item_value":  {"fg": 202, "bg": -1}
+      },
+
+      "qname_color": {"fg":  40, "bg": -1},
+      "flag_color":  {"fg": 196, "bg": -1},
+      "rname_color": {"fg": 184, "bg": -1},
+      "pos_color":   {"fg": 122, "bg": -1},
+
+      "mapq_color_range": {
+        "buttom": {"val":  0, "color": {"fg": -1, "bg": 232}},
+        "top":    {"val": 30, "color": {"fg": -1, "bg": 255}}
+      },
+
+      "cigar_color": {"fg": 225, "bg": -1},
+      "rnext_color": {"fg":  63, "bg": -1},
+      "pnext_color": {"fg":  64, "bg": -1},
+      "tlen_color":  {"fg": 200, "bg": -1},
+
+      "optional_fields_color": {
+        "tag":        {"fg":  14, "bg": -1},
+        "field_type": {"fg": 134, "bg": -1},
+        "value":      {"fg": 210, "bg": -1}
+      },
+
+      "use_base_color": true,
+
+      "hist": {
+        "use": true,
+        "symbols": 
+        "▁▁▁▁▁▁▁▁▂▂▂▂▂▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇██████",
+        "symbol_unit_len": 3,
+        "align": 1,
+        "color": {"fg": -1, "bg": -1}
+      }
+
+    }
+  }
+
