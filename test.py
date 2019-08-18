@@ -9,11 +9,12 @@ file=args[2]
 
 path_dir=os.path.abspath(".")
 Ty=biotype
+#print(path_dir)
 
 
 
 # load 读入json文件
-with open("C:\\Users\\hp\\Desktop\\152\\BioView_PY\\theme\\emoji.json") as f:
+with open(os.path.join(path_dir,"theme","emoji.json")) as f:
     json_text=json.load(f)
     theme_body=json_text["base_color"]
     
@@ -26,7 +27,7 @@ def colored(Ty,theme_body):
     
     
 if biotype=="fa":
-    print("fa model")
+    #print("fa model")
     
     with open(file) as f:
         for line in f.readlines():
