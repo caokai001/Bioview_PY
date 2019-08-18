@@ -2,6 +2,7 @@
 
 use python to display biotype data (refer to [bioView](https://github.com/Nanguage/bioView))
 
+now only support `fa` type
 ### step1 add to enviroment 
 ```
 cd shell_config
